@@ -1,6 +1,6 @@
 <?php
 
-use Bepsvpt\SecureHeaders\SecureHeaders;
+use yohn\SecureHeaders\SecureHeaders;
 
 if (!function_exists('csp_nonce')) {
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Bepsvpt\SecureHeaders;
+namespace yohn\SecureHeaders;
 
 use Closure;
 use Illuminate\Http\Request;

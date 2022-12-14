@@ -39,7 +39,7 @@
 
     using inject
     ```blade
-    @inject('headers', 'Bepsvpt\SecureHeaders\SecureHeaders')
+    @inject('headers', 'yohn\SecureHeaders\SecureHeaders')
 
     <style nonce="{{ $headers->nonce('style') }}">
       // your css
@@ -48,7 +48,7 @@
 
     or calling directly
     ```blade
-    <script nonce="{{ Bepsvpt\SecureHeaders\SecureHeaders::nonce('script') }}">
+    <script nonce="{{ yohn\SecureHeaders\SecureHeaders::nonce('script') }}">
       // your js
     </script>
     ```

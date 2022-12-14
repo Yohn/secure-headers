@@ -1,9 +1,9 @@
 <?php
 
-namespace Bepsvpt\SecureHeaders\Tests;
+namespace yohn\SecureHeaders\Tests;
 
-use Bepsvpt\SecureHeaders\SecureHeadersMiddleware;
-use Bepsvpt\SecureHeaders\SecureHeadersServiceProvider;
+use yohn\SecureHeaders\SecureHeadersMiddleware;
+use yohn\SecureHeaders\SecureHeadersServiceProvider;
 use Illuminate\Contracts\Http\Kernel as HttpKernel;
 use Illuminate\Foundation\Application;
 use Orchestra\Testbench\TestCase;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Bepsvpt\SecureHeaders\Tests\Builders;
+namespace yohn\SecureHeaders\Tests\Builders;
 
-use Bepsvpt\SecureHeaders\Builders\PermissionsPolicyBuilder;
-use Bepsvpt\SecureHeaders\Tests\TestCase;
+use yohn\SecureHeaders\Builders\PermissionsPolicyBuilder;
+use yohn\SecureHeaders\Tests\TestCase;
 
 final class PermissionsPolicyBuilderTest extends TestCase
 {

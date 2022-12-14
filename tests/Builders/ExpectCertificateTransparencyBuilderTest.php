@@ -1,9 +1,9 @@
 <?php
 
-namespace Bepsvpt\SecureHeaders\Tests\Builders;
+namespace yohn\SecureHeaders\Tests\Builders;
 
-use Bepsvpt\SecureHeaders\Builders\ExpectCertificateTransparencyBuilder;
-use Bepsvpt\SecureHeaders\Tests\TestCase;
+use yohn\SecureHeaders\Builders\ExpectCertificateTransparencyBuilder;
+use yohn\SecureHeaders\Tests\TestCase;
 
 final class ExpectCertificateTransparencyBuilderTest extends TestCase
 {

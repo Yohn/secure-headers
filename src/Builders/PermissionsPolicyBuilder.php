@@ -1,6 +1,6 @@
 <?php
 
-namespace Bepsvpt\SecureHeaders\Builders;
+namespace yohn\SecureHeaders\Builders;
 
 final class PermissionsPolicyBuilder extends Builder
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Bepsvpt\SecureHeaders\Tests;
+namespace yohn\SecureHeaders\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 

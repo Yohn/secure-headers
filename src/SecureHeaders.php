@@ -1,12 +1,12 @@
 <?php
 
-namespace Bepsvpt\SecureHeaders;
+namespace yohn\SecureHeaders;
 
-use Bepsvpt\SecureHeaders\Builders\ClearSiteDataBuilder;
-use Bepsvpt\SecureHeaders\Builders\ContentSecurityPolicyBuilder;
-use Bepsvpt\SecureHeaders\Builders\ExpectCertificateTransparencyBuilder;
-use Bepsvpt\SecureHeaders\Builders\PermissionsPolicyBuilder;
-use Bepsvpt\SecureHeaders\Builders\StrictTransportSecurityBuilder;
+use yohn\SecureHeaders\Builders\ClearSiteDataBuilder;
+use yohn\SecureHeaders\Builders\ContentSecurityPolicyBuilder;
+use yohn\SecureHeaders\Builders\ExpectCertificateTransparencyBuilder;
+use yohn\SecureHeaders\Builders\PermissionsPolicyBuilder;
+use yohn\SecureHeaders\Builders\StrictTransportSecurityBuilder;
 use Exception;
 use InvalidArgumentException;
 use RuntimeException;
