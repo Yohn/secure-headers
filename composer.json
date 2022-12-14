@@ -1,8 +1,9 @@
 {
-  "name": "bepsvpt/secure-headers",
+  "name": "yohn/secure-headers",
   "description": "Add security related headers to HTTP response. The package includes Service Providers for easy Laravel integration.",
   "license": "MIT",
   "type": "library",
+  "version": "1.0.9",
   "keywords": [
     "laravel",
     "header",
@@ -19,6 +20,10 @@
     {
       "name": "bepsvpt",
       "email": "og7lsrszah6y3lz@infinitefa.email"
+    },
+    {
+      "name": "yohn",
+      "email": "yoyohns@proton.me"
     }
   ],
   "homepage": "https://github.com/bepsvpt/secure-headers",
@@ -38,7 +43,7 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Bepsvpt\\SecureHeaders\\": "src/"
+      "Yohn\\SecureHeaders\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -46,7 +51,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Bepsvpt\\SecureHeaders\\Tests\\": "tests/"
+      "Yohn\\SecureHeaders\\Tests\\": "tests/"
     }
   },
   "config": {
@@ -61,7 +66,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Bepsvpt\\SecureHeaders\\SecureHeadersServiceProvider"
+        "Yohn\\SecureHeaders\\SecureHeadersServiceProvider"
       ]
     }
   }
