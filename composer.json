@@ -3,7 +3,7 @@
   "description": "Add security related headers to HTTP response. The package includes Service Providers for easy Laravel integration.",
   "license": "MIT",
   "type": "library",
-  "version": "1.0.9",
+  "version": "7.4.0",
   "keywords": [
     "laravel",
     "header",
